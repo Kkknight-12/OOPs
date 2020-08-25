@@ -1,2 +1,2 @@
-# OOPs
-Some Oops  practice
+# Basics
+Here is some Python practice file
