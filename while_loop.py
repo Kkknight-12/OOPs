@@ -104,3 +104,32 @@ while True:
     except StopIteration:
         break
     print(X ** 2, end=' ')
+
+
+################
+
+import random
+
+di = {1:"a", 2:"b", 3:"c", 4:"d"}
+
+number = random.randint(1,4)
+print(number)
+
+while True:
+    guess = input("Enter alpha")
+    status = False   
+    
+    for i in range(1,len(di)+1):
+        if guess in di[i]:
+#             print(i,number)
+            if i == number:
+                print("correct")
+                status = True
+                break
+             
+            elif i > number:
+                print("large")
+            else:
+                print("small") 
+    if status:
+        break
