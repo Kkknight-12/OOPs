@@ -38,16 +38,16 @@ number=months[a]
 for i in range(0,len(months[a])):
     print(i)
     
-month=int(input("enter month "))
-months=['jan','feb','march','april','may','june','july','aug','sept','oct','nov','dec']
-a=month-1
-month_name=months[a]
-if a <=12 and a>0:
-    for i in months:
-        if (i == month_name):
-            print(month_name)
-            break 
-if a > 12:
+# month=int(input("enter month "))
+# months=['jan','feb','march','april','may','june','july','aug','sept','oct','nov','dec']
+# a=month-1
+# month_name=months[a]
+# if a <=12 and a>0:
+#     for i in months:
+#         if (i == month_name):
+#             print(month_name)
+#             break 
+# if a > 12:
     
     
 month=int(input("enter month "))
